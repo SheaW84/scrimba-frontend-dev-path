@@ -1,10 +1,25 @@
-p {
+#me {
     color:gray;
-    font-family:comic-sans;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    text-align: center;
+
+    margin: 40px 20px;
+    padding:  20px;
+
 }
 
 h1 {
 
-    color:red;
-    
+    color: #FFF;
+    background-color: #281B2D;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 72px;
+    margin: 0;
+    padding: 20px;
+}
+
+body {
+    margin: 0;
 }
