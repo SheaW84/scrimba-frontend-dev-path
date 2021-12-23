@@ -1,14 +1,5 @@
-#me {
-    color:gray;
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: black;
-    text-align: center;
 
-    margin: 40px 20px;
-    padding:  20px;
-
-}
-
+/*element selectors have nothing in the beginning*/
 h1 {
 
     color: #FFF;
@@ -16,10 +7,80 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 72px;
-    margin: 0;
-    padding: 20px;
+    margin-top: 0;
+    padding: 25px 0;
 }
 
 body {
     margin: 0;
+}
+
+/*psuedo class*/
+
+a{
+    color: #9138b7
+}
+
+a:hover {
+    color:#fff;
+}
+
+
+
+/*class selectors have a dot (.) in the beginning*/
+.subheading {
+    font-size: 48px;
+    color: #FCD801;
+    background-color: #281B2D;
+    padding: 20px;
+    border-bottom: 10px solid #00c54c; 
+    margin-top: 0;
+    
+    /* try to remember box model properties*/
+
+    /*this is the same as
+    border-bottom-size: 10px
+    border-bottom-style: solid
+    border-bottom-color: #00c54c*/
+}
+
+/*customizing with an inline element*/
+.change {
+    color: #FFF;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+img {
+    max-width: 90%;
+}
+
+.columns{
+    display: flex;
+}
+
+.main-content {
+    width: 65%;
+    margin-right:5%;
+    
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #9ae84f;
+    padding:  15px;
+    box-shadow: 0px 0px 10px 0.1px;
+    
+}
+
+.lizard-list {
+    line-height: 2;
+}
+
+.link-source {
+    font-size: smaller;
 }
